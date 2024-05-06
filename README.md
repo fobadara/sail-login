@@ -24,6 +24,10 @@
 
 # 📖 <a name="about-project">Sail Login</a>
 
+|Mobile|Desktop|
+|---|---|
+|![alt text](image-2.png)|![alt text](image-1.png)|
+
 > This is a project which converts an image of a login page to code. You can see the image and the project requirements in this <a href="https://docs.google.com/document/d/1bMnTYvVGmO80trGjCHNvOMrG0cOaOdVhounVpR0LQZo/edit" name="project-file" >file</a>
 >
 
@@ -52,9 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://sail-login.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
