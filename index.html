@@ -9,30 +9,34 @@
   <title>SAIL</title>
 </head>
 
-<body>
-  <article class="container">
-    <header>
-      <h1>Login Form</h1>
-    </header>
-    <main>
-      <div>
-        <div>Login</div>
-        <div>Signup</div>
+<body class="bg-purple-red">
+  <article class="container center">
+    <section class="center">
+      <header>
+        <h1>Login Form</h1>
+      </header>
+      <div class="container-fluid">
+        <nav>
+          <ul id="navigation" class="row">
+            <li id="active">Login</li>
+            <li>Signup</li>
+          </ul>
+        </nav>
+        <main>
+          <form action="">
+            <input type="text" aria-label="email" placeholder="Email Address">
+            <input type="password" name="" id="" aria-label="password" placeholder="Password">
+            <a id="forgot-password" href="#">Forgot password?</a>
+            <br>
+            <button type="submit" class="bg-purple-red">Login</button>
+          </form>
+        </main>
       </div>
-      <form action="">
-        <input type="text" aria-label="email" placeholder="Email Address">
-        <br>
-        <input type="password" name="" id="" aria-label="password" placeholder="Password">
-        <br>
-        <a href="#">Forgot password?</a>
-        <br>
-        <button type="submit">Login</button>
-      </form>
-    </main>
-    <footer>
-      <span>Not a member?</span>
-      <a href="#"> signup</a>
-    </footer>
+      <footer>
+        <span>Not a member?</span>
+        <a id="signup-link" href="#"> signup now</a>
+      </footer>
+    </section>
   </article>
 </body>
 
