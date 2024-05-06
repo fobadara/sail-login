@@ -4,11 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/index.css">
+  <title>SAIL</title>
 </head>
 
-<body>
-  <h1>Hello world!</h1>
+<body class="bg-purple-red">
+  <article class="container center">
+    <section class="center">
+      <header>
+        <h1>Login Form</h1>
+      </header>
+      <div class="container-fluid">
+        <nav>
+          <ul id="navigation" class="row">
+            <li id="active">Login</li>
+            <li>Signup</li>
+          </ul>
+        </nav>
+        <main>
+          <form action="">
+            <input type="text" aria-label="email" placeholder="Email Address">
+            <input type="password" name="" id="" aria-label="password" placeholder="Password">
+            <a id="forgot-password" href="#">Forgot password?</a>
+            <br>
+            <button type="submit" class="bg-purple-red">Login</button>
+          </form>
+        </main>
+      </div>
+      <footer>
+        <span>Not a member?</span>
+        <a id="signup-link" href="#"> signup now</a>
+      </footer>
+    </section>
+  </article>
 </body>
 
 </html>
